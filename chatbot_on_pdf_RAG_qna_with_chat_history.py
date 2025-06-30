@@ -2,7 +2,6 @@
 import os
 from dotenv import load_dotenv
 load_dotenv()
-groq_api_key = os.getenv("GROQ_API_KEY")
 
 # prompts
 from langchain_core.prompts import ChatPromptTemplate , MessagesPlaceholder
@@ -13,7 +12,6 @@ import langchain_google_genai
 import langchain_ollama
 import langchain_openai
 from langchain_groq import ChatGroq
-model = ChatGroq(model="Llama3-8b-8192", groq_api_key=groq_api_key)
 
 # output parsers
 from langchain_core.output_parsers import StrOutputParser
