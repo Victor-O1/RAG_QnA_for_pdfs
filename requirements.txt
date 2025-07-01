@@ -11,3 +11,4 @@ huggingface-hub
 sentence-transformers
 PyPDF2
 packaging
+sqlite3 >= 3.35.0
