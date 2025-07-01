@@ -1,14 +1,12 @@
 streamlit
-pypdf
-python-dotenv
 langchain
-langchain-community
 langchain-core
+langchain-community
 langchain-groq
-chromadb==0.5.5
-protobuf==3.20.1
-huggingface-hub
-sentence-transformers
-PyPDF2
-packaging
-sqlite3 >= 3.35.0
+groq
+transformers
+torch
+chromadb
+faiss-cpu
+pdfminer.six
+tqdm
